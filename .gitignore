@@ -1,0 +1,47 @@
+################
+###  Ignore  ###
+################
+# Root Folders
+/Deploy/
+/Database/
+/db/
+/packages/
+
+# General Folders
+**/bin/
+**/obj/
+
+# Folders starting with a dot
+**/.*/
+
+# File Extensions
+*.user
+*.dll
+*.pdb
+*.dll.config
+
+# Specific filenames
+user.props
+log.txt
+
+# Specific files
+# Add a row like this, without the hashtag
+# /log.text
+
+#List and Label Files
+*.lsp
+*.lsv
+*.~*
+*.lbp
+*.lbv
+
+################
+###  Allow  ###
+################
+# General Matches
+# !/DataSets/*.dll
+
+# Repository specific rules
+# Add a row like this, without the hashtag
+# !/RestSharp.dll
+*.log
