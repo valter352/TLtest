@@ -44,4 +44,3 @@ log.txt
 # Repository specific rules
 # Add a row like this, without the hashtag
 # !/RestSharp.dll
-*.log
